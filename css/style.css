@@ -1,0 +1,39 @@
+body {
+  width: 100%;
+}
+span.site-title {
+  float: left;
+  font-size: 36px;
+  color: #fff;
+  margin: 12px;
+  padding-left: 233px;
+}
+.pageheader div img.site-logo {
+  display: inline;
+  margin: 3px;
+}
+div.content {
+  margin-left: 3%;
+  width: 89%;
+}
+.pageheader {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+}
+iframe {
+  display: block;
+  margin: 2%;
+}
+span.inline-code {
+  background-color: #eee;
+  padding: 3px;
+  border-radius: 5px;
+}
+code {
+  background-color: #eee;
+  padding: 12px;
+  border-radius: 9px;
+  margin-left: auto;
+  margin-right: auto;
+}

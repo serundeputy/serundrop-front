@@ -1,0 +1,17 @@
+<html>
+<head>
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <title>Page Listing</title>
+</head>
+<body>
+{>pageheader/}
+<div class="content">
+    {#pages}
+        <h3>{title}</h3>
+        <p>{body.und[0].value|s}</p>
+        ~ by {name}
+        <hr>
+    {/pages}
+</div>
+</body>
+</html>

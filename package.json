@@ -1,0 +1,18 @@
+{
+  "name": "serundrop-front",
+  "version": "1.0.0",
+  "description": "Node front end for serundrop Backdrop CMS Website.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Geoff",
+  "license": "ISC",
+  "dependencies": {
+    "adaro": "^1.0.1",
+    "crypto": "0.0.3",
+    "express": "^4.13.3",
+    "redis": "^2.4.2",
+    "request": "^2.67.0"
+  }
+}
