@@ -7,7 +7,7 @@
 {>pageheader/}
 <div class="content">
     {#pages}
-        <h3>{title}</h3>
+        <h3><a href="/node/{nid}">{title}</a></h3>
         <p>{body.und[0].value|s}</p>
         ~ by {name}
         <hr>

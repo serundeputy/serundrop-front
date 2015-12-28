@@ -39,6 +39,7 @@
       var data = {'pages' : []};
       for (var i = 0; i < pages.length; i++) {
         var entry = {
+          'nid' : pages[i].nid,
           'title' : pages[i].title,
           'name' : pages[i].name,
           'body' : pages[i].body
